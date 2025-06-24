@@ -1,0 +1,11 @@
+#dropZone:hover {
+    border-color: #2563eb;
+    background-color: #f3f4f6;
+}
+button {
+    transition: background-color 0.3s ease;
+}
+#videoOutput {
+    max-width: 75%;
+    height: auto !important;
+}

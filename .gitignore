@@ -1,0 +1,15 @@
+AutoCVAT/
+exp10-new/
+runs/
+!runs/detect/
+!runs/detect/train23/
+!runs/detect/train23/**
+venv/
+тест/
+args.yaml
+botsort.yaml
+bytetrack.yaml
+dataset.zip
+yolo_dataset
+dataset/
+yolo11s.pt

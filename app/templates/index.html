@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if show_upload %}
+        {% include "video_upload.html" %}
+    {% else %}
+        {% include "video_processing.html" %}
+    {% endif %}
+{% endblock %}

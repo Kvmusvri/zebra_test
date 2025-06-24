@@ -1,0 +1,13 @@
+<div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-3xl text-center" id="video_processing">
+    <h1 class="text-2xl font-bold mb-6">Обработка видео</h1>
+    <p class="text-gray-600 mb-4">Видео выбрано. Готово к обработке?</p>
+    <div class="flex flex-col space-y-4">
+        <button id="cancelButton" class="bg-red-500 text-white py-2 px-4 rounded-lg hover:bg-red-600">
+            Отмена
+        </button>
+        <button id="processButton" class="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">
+            Обработать видео
+        </button>
+    </div>
+    <video id="videoOutput" class="mt-4 w-full max-h-[600px] rounded-lg hidden" autoplay controls></video>
+</div>

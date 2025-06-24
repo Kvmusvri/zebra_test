@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Processing App</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="container mx-auto p-6 flex flex-row space-x-6">
+        <div class="form-container w-96 min-w-96 flex-shrink-0">
+            {% block content %}{% endblock %}
+        </div>
+        <div id="videoContainer" class="video-container hidden flex flex-col items-center justify-center w-full">
+            <button id="closeVideoButton" class="bg-red-500 text-white py-2 px-4 rounded-lg">
+                Закрыть видео
+            </button>
+            <img id="videoOutput" class="rounded-lg" alt="Video Stream">
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
