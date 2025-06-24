@@ -19,6 +19,6 @@ linux
 * notebooks - ноутбуки с ходом решения, разделены на две части: препроцессинг и обучение моделей с тестами.
 * runs/detect/train23 - папка с весами моделей и итоговыми графиками.
 * main.py - точка входа в fastapi приложение.
-* yolo_dataset.zip - датасет с анотациями. Так же он сохранен в ultralitics hub - https://hub.ultralytics.com/datasets/tvzsUHNehMywITzD8FsR
+* yolo_dataset.zip - датасет с анотациями. Так же он сохранен в ultralitics hub - https://hub.ultralytics.com/datasets/tvzsUHNehMywITzD8FsR (в хабе слетели аннотации для части изображений, возможно не правильно экспортировались аннотации).
 
 
